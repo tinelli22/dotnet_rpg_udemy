@@ -2,10 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using dotnet_rpg_udemy.Models;
 
-namespace dotnet_rpg_udemy.Models
+namespace dotnet_rpg_udemy.Dtos.Character
 {
-    public class Character
+    public class GetCharacterDto
     {
         public int Id { get; set; } = 0;
         public string Name { get; set; } = "Frodo";
